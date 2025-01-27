@@ -1,0 +1,11 @@
+interactive:
+						EMPTY		FULL		HEREDOC:EM	HEREDOC:FU
+- ^C: nouveau prompt	new p		new p		new heredoc	new heredoc
+- ^D: exit				exit		-			empty line	-
+- ^\: nothing			-			-			-			-
+
+bash:
+						EMPTY		FULL		HEREDOC:EM	HEREDOC:FU
+- ^C: nouveau prompt	new p		new p		new p		new p
+- ^D: exit				exit		-			error		-
+- ^\: nothing			-			-			-			-

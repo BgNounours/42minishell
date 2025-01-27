@@ -1,0 +1,6 @@
+(unnecessary part)
+- working history (rl_* functions?)
+	- '<<' with history?
+
+(also search TODO and FIXME in the files)
+(also check if it works at the cluster (might need libreadline-dev))
