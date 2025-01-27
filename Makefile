@@ -56,7 +56,7 @@ debug :
 
 $(NAME) : $(O_FILES) $(LIBRARIES)
 	@echo "\e[30;47;1m  $(NAME): linking...  \e[0m"
-	$(CC) -lreadline -o $(NAME) $(O_FILES) $(LIBRARIES_FILES) $(MORE_FLAGSS)
+	$(CC) -o $(NAME) $(O_FILES) $(LIBRARIES_FILES) $(MORE_FLAGSS) -lreadline
 	@echo "\e[30;47;1m  $(NAME): linked!  \e[0m"
 
 $(LIBRARIES) :
